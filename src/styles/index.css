@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FF597C;
+  --color-secondary: #685E5F;
+  --color-background: #FFFEFE;
+
+  --font-sans: 'Jost', sans-serif;
+  --font-serif: 'EB Garamond', serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-secondary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
