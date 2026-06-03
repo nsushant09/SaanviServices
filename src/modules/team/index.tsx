@@ -1,17 +1,18 @@
 import { motion } from 'framer-motion';
+import Binod from '@/assets/Binod.jpg';
 
 export default function Team() {
   const teamMembers = [
     {
       name: 'Binod Bhandari',
       role: 'Lead Support Worker',
-      bio: 'With over 5 years of experience, Binod brings warmth and dedication to every individual he supports.',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop'
+      bio: 'As our Lead Support Worker, Binod brings years of expertise in coordinating care, mentoring staff, and ensuring the highest quality of support for our clients.',
+      image: Binod
     },
     {
-      name: 'Sarita Neupane',
+      name: 'Sarita Neupane', 
       role: 'Support Worker',
-      bio: 'Sarita excels at creating personalized plans that truly reflect the goals and aspirations of our clients.',
+      bio: 'As a dedicated Support Worker, Sarita provides compassionate, hands-on assistance, working closely with clients to achieve their daily goals and foster independence.',
       image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=600&auto=format&fit=crop'
     }
   ];

@@ -20,7 +20,7 @@ export default function Contact() {
     resolver: zodResolver(contactSchema)
   });
 
-  const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const EMAILJS_USER_ID = import.meta.env.VITE_EMAILJS_USER_ID;
 
@@ -29,7 +29,7 @@ const onSubmit = async (data: ContactFormData) => {
     const templateParams = {
       subject: 'Contact Form Submission',
       from_name: data.name,
-      from_email: 'nsushant21@tbc.edu.np',
+      from_email: data.email,
       reply_to: data.email,
       phone: data.phone,
       service: data.service,
