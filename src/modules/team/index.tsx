@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import Binod from '@/assets/Binod.jpg';
-import Sarita from '@assets/Sarita.jpeg'
+import Sarita from '@/assets/Sarita.jpeg'
 
 export default function Team() {
   const teamMembers = [
