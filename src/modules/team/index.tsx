@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import Binod from '@/assets/Binod.jpg';
+import Sarita from '@assets/Sarita.jpeg'
 
 export default function Team() {
   const teamMembers = [
@@ -13,7 +14,7 @@ export default function Team() {
       name: 'Sarita Neupane', 
       role: 'Support Worker',
       bio: 'As a dedicated Support Worker, Sarita provides compassionate, hands-on assistance, working closely with clients to achieve their daily goals and foster independence.',
-      image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=600&auto=format&fit=crop'
+      image: 'Sarita'
     }
   ];
 
