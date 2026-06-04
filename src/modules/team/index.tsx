@@ -14,7 +14,7 @@ export default function Team() {
       name: 'Sarita Neupane', 
       role: 'Support Worker',
       bio: 'As a dedicated Support Worker, Sarita provides compassionate, hands-on assistance, working closely with clients to achieve their daily goals and foster independence.',
-      image: 'Sarita'
+      image: Sarita
     }
   ];
 
